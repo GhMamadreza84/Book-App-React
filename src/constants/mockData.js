@@ -5,9 +5,9 @@ import img4 from "../assets/4.png";
 import img5 from "../assets/5.png";
 import img6 from "../assets/6.png";
 import img7 from "../assets/7.png";
-import img1 from "../assets/1.png";
-import img1 from "../assets/1.png";
-import img1 from "../assets/1.png";
+import img8 from "../assets/8.png";
+import img9 from "../assets/9.png";
+import img10 from "../assets/10.png";
 const books = [
   {
     id: "001",
