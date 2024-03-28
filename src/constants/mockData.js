@@ -1,3 +1,13 @@
+import img1 from "../assets/1.png";
+import img2 from "../assets/2.png";
+import img1 from "../assets/1.png";
+import img1 from "../assets/1.png";
+import img1 from "../assets/1.png";
+import img1 from "../assets/1.png";
+import img1 from "../assets/1.png";
+import img1 from "../assets/1.png";
+import img1 from "../assets/1.png";
+import img1 from "../assets/1.png";
 const books = [
   {
     id: "001",
