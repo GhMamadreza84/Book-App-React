@@ -1,2 +1,16 @@
 .header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #303030;
+  padding: 10px 30px;
+  margin-bottom: 80px;
+  border-radius: 10px;
 }
+.header a {
+  text-decoration: none;
+  color: #6552f4;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
