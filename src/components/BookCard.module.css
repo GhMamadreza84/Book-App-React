@@ -16,3 +16,15 @@
   flex-direction: column;
   justify-content: space-between;
 }
+.info span {
+  margin-right: 20px;
+  font-size: 0.85rem;
+  color: #959595;
+}
+.info button {
+  height: fit-content;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transform: all 0.1s all ease-in-out;
+}
