@@ -4,7 +4,9 @@ const Layout = ({ children }) => {
     <>
       <header>
         <h1>Book App</h1>
-        <p>React Js</p>
+        <p>
+          <a href="#">React</a> Js
+        </p>
       </header>
       {children}
       <footer>
