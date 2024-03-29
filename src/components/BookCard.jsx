@@ -1,3 +1,4 @@
+import { AiFillHeart } from "react-icons/ai";
 const BookCard = ({ data: { title, author, pages, image, language } }) => {
   return (
     <div>
@@ -10,7 +11,9 @@ const BookCard = ({ data: { title, author, pages, image, language } }) => {
           <span>{pages} Pages</span>
         </div>
       </div>
-      <button>like</button>
+      <button>
+        <AiFillHeart />
+      </button>
     </div>
   );
 };
