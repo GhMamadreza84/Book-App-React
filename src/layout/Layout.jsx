@@ -1,15 +1,16 @@
+import styles from "./Layout.module.css";
 // eslint-disable-next-line react/prop-types
 const Layout = ({ children }) => {
   return (
     <>
-      <header>
-        <h1>Book App</h1>
+      <header className={styles.header}>
+        <h1 >Book App</h1>
         <p>
           <a href="#">React</a> Js
         </p>
       </header>
       {children}
-      <footer>
+      <footer className={styles.footer}>
         <p>developed by GhMamadreza with 💙</p>
       </footer>
     </>
