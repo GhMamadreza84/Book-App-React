@@ -17,7 +17,7 @@ const BookCard = ({ data: { title, author, pages, image, language } }) => {
         </div>
       </div>
       <button onClick={likeHandler}>
-        <AiFillHeart color="red" fontSize="1.8rem" />
+        <AiFillHeart color={like ? "red" : "#e0e0e0"} fontSize="1.8rem" />
       </button>
     </div>
   );
