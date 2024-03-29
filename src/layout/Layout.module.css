@@ -13,4 +13,10 @@
   font-weight: 600;
   font-size: 1.1rem;
 }
-
+.footer{
+  text-align: center;
+  background-color: #303030;
+  padding: 20px;
+  margin-top: 80px;
+  border-radius: 10px;
+}
