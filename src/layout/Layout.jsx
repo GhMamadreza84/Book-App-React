@@ -1,8 +1,8 @@
 const Layout = () => {
   return (
     <>
-      <header></header>
-      <footer></footer>
+      <header>header</header>
+      <footer>footer</footer>
     </>
   );
 };
