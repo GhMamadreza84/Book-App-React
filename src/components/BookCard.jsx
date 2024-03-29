@@ -1,5 +1,7 @@
 import { AiFillHeart } from "react-icons/ai";
+import { useState } from "react";
 const BookCard = ({ data: { title, author, pages, image, language } }) => {
+  const [like, setLike] = useState(false);
   return (
     <div>
       <img src={image} alt={title} />
@@ -12,7 +14,7 @@ const BookCard = ({ data: { title, author, pages, image, language } }) => {
         </div>
       </div>
       <button>
-        <AiFillHeart />
+        <AiFillHeart color="red" fontSize="1.8rem" />
       </button>
     </div>
   );
