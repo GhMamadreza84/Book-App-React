@@ -8,9 +8,9 @@ const BookCard = ({ data: { title, author, pages, image, language } }) => {
     setLike((like) => !like);
   };
   return (
-    <div>
+    <div className={styles.card}>
       <img src={image} alt={title} />
-      <div>
+      <div className={styles.info}>
         <h3>{title}</h3>
         <p>{author}</p>
         <div>
