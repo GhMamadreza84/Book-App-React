@@ -1,9 +1,15 @@
+// eslint-disable-next-line react/prop-types
 const Layout = ({ children }) => {
   return (
     <>
-      <header>header</header>
+      <header>
+        <h1>Book App</h1>
+        <p>React Js</p>
+      </header>
       {children}
-      <footer>footer</footer>
+      <footer>
+        <p>developed by GhMamadreza with 💙</p>
+      </footer>
     </>
   );
 };
