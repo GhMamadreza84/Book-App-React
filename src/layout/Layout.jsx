@@ -4,14 +4,14 @@ const Layout = ({ children }) => {
   return (
     <>
       <header className={styles.header}>
-        <h1 >Book App</h1>
+        <h1>Book App</h1>
         <p>
           <a href="#">React</a> Js
         </p>
       </header>
       {children}
       <footer className={styles.footer}>
-        <p>developed by GhMamadreza with 💙</p>
+        <p>Developed by GhMamadreza with 💙</p>
       </footer>
     </>
   );
