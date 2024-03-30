@@ -29,5 +29,5 @@
   transition: 0.1s all ease-in-out;
 }
 .card button:hover {
-  transform: scale(1.2);
+  transform: scale(1.3);
 }
