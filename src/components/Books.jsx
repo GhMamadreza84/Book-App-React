@@ -3,6 +3,8 @@ import { useState } from "react";
 import { books } from "../constants/mockData";
 import BookCard from "./BookCard";
 import SideCard from "./SideCard";
+
+import styles from "./Books.module.css";
 const Books = () => {
   const [liked, setLiked] = useState([]);
   const handleLikeList = (book, status) => {
