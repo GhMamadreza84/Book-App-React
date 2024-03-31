@@ -2,6 +2,7 @@ import { useState } from "react";
 
 import { books } from "../constants/mockData";
 import BookCard from "./BookCard";
+import SideCard from "./SideCard";
 const Books = () => {
   const [liked, setLiked] = useState([]);
   const handleLikeList = (book, status) => {
@@ -19,7 +20,13 @@ const Books = () => {
           <BookCard key={book.id} data={book} handleLikeList={handleLikeList} />
         ))}
       </div>
-      {!!liked.length && <div>ss</div>}
+      {!!liked.length && (
+        <div>
+          {liked.map((book) => (
+            <SideCard key={book.id} data={book} />
+          ))}
+        </div>
+      )}
     </>
   );
 };
