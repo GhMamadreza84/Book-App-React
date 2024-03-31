@@ -1,3 +1,4 @@
+import styles from "./SideCard.module.css"
 const SideCard = ({ data: { image, title } }) => {
   return (
     <div>
