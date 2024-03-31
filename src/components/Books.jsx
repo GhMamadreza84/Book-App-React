@@ -6,8 +6,7 @@ const Books = () => {
   const [liked, setLiked] = useState([]);
   const handleLikeList = (book, status) => {
     if (status) {
-      const newLikedList = liked.filter;
-      (i) => i.id !== book.id;
+      const newLikedList = liked.filter((i) => i.id !== book.id);
       setLiked(newLikedList);
     } else {
       setLiked((liked) => [...liked, book]);
