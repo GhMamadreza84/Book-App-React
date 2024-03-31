@@ -1,9 +1,5 @@
-
-const SideCard = () => {
-  return (
-    <div>
-    </div>
-  );
-}
+const SideCard = ( data: { image, title } ) => {
+  return <div></div>;
+};
 
 export default SideCard;
