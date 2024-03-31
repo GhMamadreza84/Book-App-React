@@ -20,7 +20,7 @@ const Books = () => {
           <BookCard key={book.id} data={book} handleLikeList={handleLikeList} />
         ))}
       </div>
-      <div></div>
+      {liked.length && <div>ss</div>}
     </>
   );
 };
