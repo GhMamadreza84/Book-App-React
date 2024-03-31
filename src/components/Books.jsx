@@ -19,7 +19,7 @@ const Books = () => {
           <BookCard key={book.id} data={book} handleLikeList={handleLikeList} />
         ))}
       </div>
-      {liked.length && <div>ss</div>}
+      {!!liked.length && <div>ss</div>}
     </>
   );
 };
