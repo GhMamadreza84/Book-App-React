@@ -16,20 +16,21 @@ const Books = () => {
     }
   };
   return (
-    <>
-      <div>
+    <div className={styles.container}>
+      <div className={styles.cards}>
         {books.map((book) => (
           <BookCard key={book.id} data={book} handleLikeList={handleLikeList} />
         ))}
       </div>
       {!!liked.length && (
-        <div>
+        <div className={styles.favorite}>
+          <h4>Favorite</h4>
           {liked.map((book) => (
             <SideCard key={book.id} data={book} />
           ))}
         </div>
       )}
-    </>
+    </div>
   );
 };
 
