@@ -9,6 +9,8 @@ const Books = () => {
       const newLikedList = liked.filter;
       (i) => i.id !== book.id;
       setLiked(newLikedList);
+    } else {
+      setLiked((liked) => [...liked, book]);
     }
   };
   return (
