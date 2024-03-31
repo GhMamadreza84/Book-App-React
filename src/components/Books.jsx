@@ -3,7 +3,7 @@ import { useState } from "react";
 import { books } from "../constants/mockData";
 import BookCard from "./BookCard";
 const Books = () => {
-  const [like, setLike] = useState([]);
+  const [liked, setLiked] = useState([]);
   const handleLikeList = (books, status) => {
     console.log(books,status);
   };
