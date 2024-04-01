@@ -1,4 +1,4 @@
-import {IoSearchSharp} from "react-icons"
+import { IoSearchSharp } from "react-icons/io5";
 const SearchBox = () => {
   return (
     <div>
