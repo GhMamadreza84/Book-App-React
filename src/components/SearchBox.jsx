@@ -1,5 +1,5 @@
 import { IoSearchSharp } from "react-icons/io5";
-const SearchBox = ({ search, setSearch }) => {
+const SearchBox = ({ search, setSearch, searchHandler }) => {
   return (
     <div>
       <input
