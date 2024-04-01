@@ -1,12 +1,13 @@
 import { useState } from "react";
 
-import { books } from "../constants/mockData";
+import { books as bookData } from "../constants/mockData";
 import BookCard from "./BookCard";
 import SideCard from "./SideCard";
 import SearchBox from "./SearchBox";
 
 import styles from "./Books.module.css";
 const Books = () => {
+  const [books, setBooks] = useState(bookData);
   const [liked, setLiked] = useState([]);
   const [search, setSearch] = useState([]);
   const handleLikeList = (book, status) => {
@@ -15,6 +16,16 @@ const Books = () => {
       setLiked(newLikedList);
     } else {
       setLiked((liked) => [...liked, book]);
+    }
+  };
+  const searchHandler = () => {
+    if (search) {
+      const newBooks = bookData.filter((book) =>
+        book.title.toLowerCase().includes(search)
+      );
+      setSearch(newBooks);
+    } else {
+      setSearch(bookData);
     }
   };
   return (
