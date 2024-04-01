@@ -1,8 +1,13 @@
 import { IoSearchSharp } from "react-icons/io5";
-const SearchBox = ({search,setSearch}) => {
+const SearchBox = ({ search, setSearch }) => {
   return (
     <div>
-      <input type="text" placeholder="Search Title" />
+      <input
+        type="text"
+        placeholder="Search Title"
+        value={search}
+        onChange={(e) => setSearch(e.target.value)}
+      />
       <button>
         <IoSearchSharp />
       </button>
