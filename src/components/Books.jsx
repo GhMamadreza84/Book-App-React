@@ -19,7 +19,7 @@ const Books = () => {
   };
   return (
     <>
-      <SearchBox />
+      <SearchBox search={search} setSearch={setSearch} />
       <div className={styles.container}>
         <div className={styles.cards}>
           {books.map((book) => (
