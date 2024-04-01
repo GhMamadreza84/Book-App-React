@@ -6,7 +6,7 @@ const SearchBox = ({ search, setSearch }) => {
         type="text"
         placeholder="Search Title"
         value={search}
-        onChange={(e) => setSearch(e.target.value)}
+        onChange={(e) => setSearch(e.target.value.toLowerCase())}
       />
       <button>
         <IoSearchSharp />
