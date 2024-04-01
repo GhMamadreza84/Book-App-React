@@ -23,9 +23,9 @@ const Books = () => {
       const newBooks = bookData.filter((book) =>
         book.title.toLowerCase().includes(search)
       );
-      setSearch(newBooks);
+      setBooks(newBooks);
     } else {
-      setSearch(bookData);
+      setBooks(bookData);
     }
   };
   return (
