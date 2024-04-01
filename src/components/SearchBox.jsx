@@ -1,7 +1,8 @@
 import { IoSearchSharp } from "react-icons/io5";
+import styles from "./SearchBox.module.css";
 const SearchBox = ({ search, setSearch, searchHandler }) => {
   return (
-    <div>
+    <div className={styles.search}>
       <input
         type="text"
         placeholder="Search Title"
