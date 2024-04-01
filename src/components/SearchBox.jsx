@@ -8,7 +8,7 @@ const SearchBox = ({ search, setSearch, searchHandler }) => {
         value={search}
         onChange={(e) => setSearch(e.target.value.toLowerCase())}
       />
-      <button>
+      <button onClick={searchHandler}>
         <IoSearchSharp />
       </button>
     </div>
