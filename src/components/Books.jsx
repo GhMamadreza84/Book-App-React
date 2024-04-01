@@ -8,6 +8,7 @@ import SearchBox from "./SearchBox";
 import styles from "./Books.module.css";
 const Books = () => {
   const [liked, setLiked] = useState([]);
+  const [search, setSearch] = useState([]);
   const handleLikeList = (book, status) => {
     if (status) {
       const newLikedList = liked.filter((i) => i.id !== book.id);
